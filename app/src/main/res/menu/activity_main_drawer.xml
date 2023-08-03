@@ -3,18 +3,88 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
-    </group>
+    <item android:title="Calculadora">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_padrao"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="@string/menu_padrao" />
+                <item
+                    android:id="@+id/nav_cientifica"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="@string/menu_cientifica" />
+                <item
+                    android:id="@+id/nav_representacao_grafica"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="@string/menu_representacao_grafica" />
+
+                <item
+                    android:id="@+id/nav_programador"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="@string/menu_programador" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Conversor">
+        <menu>
+            <item
+                android:id="@+id/nav_moeda"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Moeda" />
+            <item
+                android:id="@+id/nav_volume"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Volume" />
+            <item
+                android:id="@+id/nav_comprimento"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Comprimento" />
+            <item
+                android:id="@+id/nav_peso_massa"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Peso e massa" />
+            <item
+                android:id="@+id/nav_temperatura"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Temperatura" />
+            <item
+                android:id="@+id/nav_energia"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Energia" />
+            <item
+                android:id="@+id/nav_area"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Área" />
+            <item
+                android:id="@+id/nav_velocidade"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Velocidade" />
+            <item
+                android:id="@+id/nav_tempo"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Tempo" />
+            <item
+                android:id="@+id/nav_potencia"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Potência" />
+            <item
+                android:id="@+id/nav_dados"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Dados" />
+            <item
+                android:id="@+id/nav_pressao"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Pressão" />
+            <item
+                android:id="@+id/nav_angulo"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Ângulo" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/nav_configuracoes"
+        android:icon="@drawable/ic_menu_send"
+        android:title="Configurações" />
 </menu>

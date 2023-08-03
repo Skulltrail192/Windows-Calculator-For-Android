@@ -7,7 +7,21 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_padrao">Padrão</string>
+    <string name="menu_cientifica">Científica</string>
+    <string name="menu_representacao_grafica">Representação gráfica</string>
+    <string name="menu_programador">Programador</string>
+    <string name="menu_moeda">Moeda</string>
+    <string name="menu_volume">Volume</string>
+    <string name="menu_comprimento">Comprimento</string>
+    <string name="menu_peso_massa">Peso e massa</string>
+    <string name="menu_temperatura">Temperatura</string>
+    <string name="menu_energia">Energia</string>
+    <string name="menu_area">Área</string>
+    <string name="menu_velocidade">Velocidade</string>
+    <string name="menu_tempo">Tempo</string>
+    <string name="menu_potencia">Potência</string>
+    <string name="menu_dados">Dados</string>
+    <string name="menu_pressao">Pressão</string>
+    <string name="menu_angulo">Ângulo</string>
 </resources>

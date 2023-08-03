@@ -8,18 +8,102 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="com.example.windowscalculator.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:label="@string/menu_padrao"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.example.windowscalculator.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:label="@string/menu_cientifica"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.example.windowscalculator.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="@string/menu_representacao_grafica"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_programador"
+        android:name="com.example.windowscalculator.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_programador"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_moeda"
+        android:name="com.example.windowscalculator.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_moeda"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_volume"
+        android:name="com.example.windowscalculator.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_volume"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_comprimento"
+        android:name="com.example.windowscalculator.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_comprimento"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_peso_massa"
+        android:name="com.example.windowscalculator.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_peso_massa"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_temperatura"
+        android:name="com.example.windowscalculator.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_temperatura"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_energia"
+        android:name="com.example.windowscalculator.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_energia"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_area"
+        android:name="com.example.windowscalculator.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_area"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_velocidade"
+        android:name="com.example.windowscalculator.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_velocidade"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_tempo"
+        android:name="com.example.windowscalculator.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_tempo"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_potencia"
+        android:name="com.example.windowscalculator.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_potencia"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_dados"
+        android:name="com.example.windowscalculator.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_dados"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_pressao"
+        android:name="com.example.windowscalculator.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_pressao"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_angular"
+        android:name="com.example.windowscalculator.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_angulo"
         tools:layout="@layout/fragment_slideshow" />
 </navigation>
